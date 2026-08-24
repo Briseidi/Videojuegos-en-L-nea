@@ -1,0 +1,31 @@
+# ============================
+# .gitignore para Unreal Engine 5
+# ============================
+
+# Carpetas que Unreal regenera automáticamente
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vs/
+
+# Archivos de proyecto de Visual Studio / Rider (se regeneran al abrir el .uproject)
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+.vsconfig
+
+# Archivos temporales del sistema
+*.tmp
+*.log
+
+# Si tienes plugins con su propia carpeta Binaries/Intermediate
+Plugins/*/Binaries/
+Plugins/*/Intermediate/
+
+# Archivos de compilación empaquetada (builds del juego, no el proyecto)
+Packaged/
